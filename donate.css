@@ -1,0 +1,71 @@
+html{
+	height: 100%;
+}
+body{
+	background: url(lotus2.jpg);*/
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	position:center;
+	/*padding-top: 0;*/
+	background-color:black;
+}
+/*.intro
+{
+	height:100vh;
+	width: 100%;
+	background:url(lotus2.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	position:relative;
+	padding-top: 0;
+	background-color:black;
+}*/
+.maincontainer{
+	margin:4% auto;
+	width: 50%;
+	border:10px #bdc3c7 solid;
+	font-family: 'source sans pro',sans-serif;
+	background-color: rgba(244, 173, 66, 0.5);
+}
+.content{
+	margin:0 20px;
+	/*border-left: 2px #bdc3c7 solid;*/
+	padding-left: 2px;
+	font-family: latto;
+	font-weight:600;
+	font-size: 1.8em;
+}
+.accinfo{
+	margin:0 20px;
+	/*border-left: 2px #bdc3c7 solid;*/
+	padding-left: 2px;
+	font-family: latto;
+	font-weight:600;
+	font-size: 1.8em;
+}
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: inset;
+    border-width: 3px;
+}
+#final{
+	margin-left:30%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+h1{
+	font-family: latto;
+	font-weight:800;
+	font-size: 30px;
+	text-align: center;
+	color:white;
+}
+/* contact info form:- https://goo.gl/forms/f1VJiiQx20Y44I7v1 */

@@ -1,0 +1,129 @@
+html{
+	height: 100%;
+}
+body{
+	background: #ff6600;
+	height:100%;
+}
+.intro
+{
+	height:100vh;
+	width: 100%;
+	background:url(baba.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	position:relative;
+	padding-top: 0;
+	background-color:black;
+}
+h1{
+	font-family:lato;
+	font-weight: 700;
+	font-size: 6em;
+}
+#content{
+	text-align: center;
+	padding-top: 25%;
+	font-family: lato;
+	color:#ff4000;
+	font-size: 3em;
+	font-weight: 500;
+}
+.music{
+	/*align-content: right;*/
+	padding-top: 5%;
+	margin-left: 90%;
+	/*align-items: right;*/
+
+}
+hr {
+	width: 80%;
+    border: 0;
+    height: 8px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.about1{
+	/*font-weight: 500;*/
+	font-family: lato;
+	font-size: 1.3em;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+.logo{
+	height: 10vh;
+	width:50%;
+}
+.contact1{
+	margin-top: 5%;
+	font-weight: 500;
+	font-family: lato;
+	font-size: 1.8em;
+	color:#ffffff;
+}
+.button1{
+	width:40%;
+}
+.identifier{
+	font-weight: 800;
+	font-family: lato;
+	font-size:20px;
+}
+.jumbotron{
+	position:relative;
+    margin-bottom: 0;
+    background: orange;
+    padding:0;
+    text-align: center;
+}
+.container-fluid{
+	padding: 0;
+}
+#imgstyle{
+	border-radius:10%;
+}
+.hovinfo:hover .image {
+  opacity: 0.3;
+}
+
+.hovinfo:hover .middle {
+  opacity: 1;
+}
+.image{
+	transition: .5s ease;
+  backface-visibility: hidden;
+}
+.imginfo:{
+	 opacity: 1;
+	 display: block;
+	 width: 100%;
+	 height: auto;
+	 transition: .5s ease;
+	 backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  background-color: rgba(243, 162, 141, 0);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#events{
+	font-weight: 500;
+	font-family: lato;
+	font-size: 1.3em;
+	color: #ffffff;
+	margin-bottom: 0;
+}
